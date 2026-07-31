@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Appium.WebDriver" Version="5.0.0" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\config\PCloudyEnvironment.cs" Link="config\PCloudyEnvironment.cs" />
+    <Compile Include="..\config\AndroidPCloudySettings.cs" Link="config\AndroidPCloudySettings.cs" />
+    <Compile Include="..\src\PCloudyDriverFactory.cs" Link="src\PCloudyDriverFactory.cs" />
+    <Compile Include="..\tests\AndroidAppRunner.cs" Link="tests\AndroidAppRunner.cs" />
+  </ItemGroup>
+</Project>
