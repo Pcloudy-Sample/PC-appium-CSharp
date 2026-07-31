@@ -59,7 +59,7 @@ Set these before running the tests:
 ## Setup
 
 ```powershell
-git clone <your-repository-url>
+git clone https://github.com/Pcloudy-Sample/PC-appium-CSharp.git
 cd PC-appium-CSharp
 dotnet restore
 ```
