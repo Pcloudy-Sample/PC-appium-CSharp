@@ -1,8 +1,8 @@
 <div align="center">
 
-# Run Appium C# Tests on pCloudy
+# Run Appium C# Tests on Pcloudy
 
-[![pCloudy](https://img.shields.io/badge/Made%20by-pCloudy-1a73e8?style=for-the-badge)](https://www.pcloudy.com)
+[![Pcloudy](https://img.shields.io/badge/Made%20by-Pcloudy-1a73e8?style=for-the-badge)](https://www.pcloudy.com)
 [![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?style=for-the-badge)](https://dotnet.microsoft.com/)
 [![NUnit](https://img.shields.io/badge/Test%20Runner-NUnit-0E9F6E?style=for-the-badge)](https://nunit.org/)
 
@@ -10,15 +10,15 @@
 
 ## Getting Started
 
-[pCloudy](https://www.pcloudy.com) is a mobile app testing platform that gives you access to real Android and iOS devices directly from your browser. You can use those devices to run manual and automated tests, connect the platform to your CI pipeline, and validate builds on real devices.
+[Pcloudy](https://www.pcloudy.com) is a mobile app testing platform that gives you access to real Android and iOS devices directly from your browser. You can use those devices to run manual and automated tests, connect the platform to your CI pipeline, and validate builds on real devices.
 
-This repository is a C# Appium sample that shows how to run mobile automation tests on the pCloudy Real Device Cloud using .NET 8 and NUnit. It includes separate Android and iOS project files, shared configuration helpers, and platform-specific test runners.
+This repository is a C# Appium sample that shows how to run mobile automation tests on the Pcloudy Real Device Cloud using .NET 8 and NUnit. It includes separate Android and iOS project files, shared configuration helpers, and platform-specific test runners.
 
 ## Prerequisites
 
 - .NET SDK 8.0 or later
-- A pCloudy account
-- A mobile app uploaded to pCloudy if you want to run against a real app
+- A Pcloudy account
+- A mobile app uploaded to Pcloudy if you want to run against a real app
 
 ## Project Structure
 
@@ -126,7 +126,7 @@ dotnet test Ios/IosPCloudy.csproj
 
 - The sample is intentionally small and mirrors a starter project layout.
 - You can extend it with additional test classes, page objects, and device-specific capabilities as needed.
-- If you want to run against a real application, make sure `PCLOUDY_APP_PATH` points to an uploaded app on pCloudy.
+- If you want to run against a real application, make sure `PCLOUDY_APP_PATH` points to an uploaded app on Pcloudy.
 
 ## How It Works
 
@@ -148,14 +148,14 @@ If you need to adjust capabilities or add more platform-specific options, update
 
 ## API Documentation
 
-For the full pCloudy REST API reference (device booking, app upload, reports, and more), see:
+For the full Pcloudy REST API reference (device booking, app upload, reports, and more), see:
 
-- [pCloudy API Documentation](https://content.pcloudy.com/apidocs/index.html)
+- [Pcloudy API Documentation](https://content.pcloudy.com/apidocs/index.html)
 
 ## Learn More
 
-- [pCloudy Website](https://www.pcloudy.com)
-- [Appium Integration on pCloudy](https://www.pcloudy.com/appium-integration-architecture-redefined-appium-runs-become-simpler-with-pcloudy/)
+- [Pcloudy Website](https://www.pcloudy.com)
+- [Appium Integration on Pcloudy](https://www.pcloudy.com/appium-integration-architecture-redefined-appium-runs-become-simpler-with-pcloudy/)
 
 ## Contributions
 
